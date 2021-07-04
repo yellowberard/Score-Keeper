@@ -19,15 +19,18 @@ let isGameOver =false;
 
 p1Button.addEventListener('click',function(evt){
      console.log("You pressed player 1");
-   if(isGameOver!==true)
-   { p1Score+=1; 
+   
+     if(isGameOver!==true)
+   { 
+      p1Score+=1; 
+      
     if(p1Score==limit)
      {
          isGameOver= true;
          p1Display.classList.add('winner');
          p2Display.classList.add('loser');
-        //  document.body.style.background = "linear-gradient(90deg, green 50%, red 50%)";
-
+         p1Button.style.background ='#20c997';
+         p2Button.style.background='#f03e3e';      
      }
 
      p1Display.textContent= p1Score;
@@ -39,14 +42,18 @@ p1Button.addEventListener('click',function(evt){
 
  p2Button.addEventListener('click',function(evt){
     console.log("You pressed player 2");
-  if(isGameOver!==true)
-  { p2Score+=1; 
+  
+    if(isGameOver!==true)
+  {
+      p2Score+=1;
+       
    if(p2Score==limit)
     {
         isGameOver= true;
         p2Display.classList.add('winner');
         p1Display.classList.add('loser');
-        // document.body.style.background ='linear-gradient(90deg, red 50%,green 50%)';
+        p2Button.style.background ='#20c997';
+        p1Button.style.background='#f03e3e';
     }
     p2Display.textContent= p2Score;
    }  
@@ -65,7 +72,9 @@ function reset()
     p2Display.textContent= p2Score;
     p1Display.classList.remove('winner','loser');
     p2Display.classList.remove('loser','winner');
-    document.body.style.background= "white";
+    
+    p1Button.style.background ='#adb5bd';
+    p2Button.style.background='#adb5bd'; 
  }
 
 //  Limit set by user

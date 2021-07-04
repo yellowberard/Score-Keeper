@@ -10,3 +10,33 @@ h1 { display: flex;
      color: red;
       
  }
+.score{
+        display: flex;
+        justify-content: center;
+}
+.players{
+    display: flex;
+    justify-content: center;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    
+}
+.p1button{
+    background-color: #adb5bd;
+}
+.p2button{
+    background-color: #adb5bd;
+}
+.reset{
+    background-color: #22b8cf ;
+}
+.label{
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-image: url('https://unsplash.com/photos/vljZeX-WdQs');
+    background-size: cover;
+}
