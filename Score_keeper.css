@@ -1,4 +1,12 @@
 h1 { display: flex;
     justify-content:center;
-      color: red;
+      color: black;
 }
+.winner{
+    color:green;
+   
+}
+ .loser{
+     color: red;
+      
+ }
