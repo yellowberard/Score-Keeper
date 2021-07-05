@@ -31,6 +31,7 @@ p1Button.addEventListener('click',function(evt){
          p2Display.classList.add('loser');
          p1Button.style.background ='#20c997';
          p2Button.style.background='#f03e3e';      
+         alert("PLAYER 1 WON!!");
      }
 
      p1Display.textContent= p1Score;
@@ -54,6 +55,7 @@ p1Button.addEventListener('click',function(evt){
         p1Display.classList.add('loser');
         p2Button.style.background ='#20c997';
         p1Button.style.background='#f03e3e';
+        alert("PLAYER 2 WON!!");
     }
     p2Display.textContent= p2Score;
    }  
