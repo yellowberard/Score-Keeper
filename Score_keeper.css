@@ -1,6 +1,6 @@
 h1 { display: flex;
     justify-content:center;
-      color: black;
+      color: #266150;
 }
 .winner{
     color:green;
@@ -17,6 +17,7 @@ h1 { display: flex;
 .players{
     display: flex;
     justify-content: center;
+    color: #4F4846;
 }
 .buttons{
     display: flex;
@@ -30,13 +31,31 @@ h1 { display: flex;
     background-color: #adb5bd;
 }
 .reset{
-    background-color: #22b8cf ;
+    background-color: #DDAF94 ;
 }
 .label{
     display: flex;
     justify-content: center;
 }
-body{
-    background-image: url('https://unsplash.com/photos/vljZeX-WdQs');
-    background-size: cover;
+body
+{
+    background-image: url('https://images.unsplash.com/photo-1584813539806-2538b8d918c6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGluZyUyMHBvbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+    /* background-size:50%;
+        background-repeat: no-repeat; */
+         background-color: #E8CEBF;
+         height: 100%;
+         background-repeat: no-repeat;
+         background-size:auto;
+         background-position: center;
+         background-attachment: fixed;
+         height: 100%;
+       
 }
+.sk
+{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+html{height: 100%;}
