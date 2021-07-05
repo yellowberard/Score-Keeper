@@ -20,7 +20,7 @@ let isGameOver =false;
 p1Button.addEventListener('click',function(evt){
      console.log("You pressed player 1");
    
-     if(isGameOver!==true)
+     if(isGameOver!==true && limit!==0)
    { 
       p1Score+=1; 
       
@@ -43,7 +43,7 @@ p1Button.addEventListener('click',function(evt){
  p2Button.addEventListener('click',function(evt){
     console.log("You pressed player 2");
   
-    if(isGameOver!==true)
+    if(isGameOver!==true && limit!==0)
   {
       p2Score+=1;
        
