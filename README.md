@@ -31,3 +31,5 @@ To play another game press reset button and choose your winning score.
 
 <h1> Link for Website: </h1>
 https://yellowberard.github.io/Score-Keeper/Score_keeper.html
+
+If You like this please drop a star
